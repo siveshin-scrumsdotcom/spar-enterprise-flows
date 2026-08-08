@@ -1,0 +1,386 @@
+<mxfile host="app.diagrams.net">
+
+  <!-- ============ PAGE 1: AS-IS HIGH LEVEL ============ -->
+  <diagram id="hl-asis" name="1. As-Is - High Level">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="620" math="0" shadow="0">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="SPAR Enterprise — AS-IS High Level (Project → Demand → Helpdesk)" style="text;html=1;fontSize=20;fontStyle=1;align=center;fontColor=#1A2B3C;" vertex="1" parent="1"><mxGeometry x="450" y="10" width="1000" height="30" as="geometry"/></mxCell>
+
+        <!-- Project lane -->
+        <mxCell id="p1" value="Project RockIT&#10;Item logged" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=11;" vertex="1" parent="1"><mxGeometry x="40" y="70" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="p2" value="Demand sets&#10;priority &amp; urgency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=11;" vertex="1" parent="1"><mxGeometry x="220" y="70" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="p3" value="Ticket → Enterprise&#10;(DC Deployment)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E8B87;strokeColor=#1F6B67;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="400" y="70" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="p4" value="BA Assessment&#10;(Yusuf's team)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=10;" vertex="1" parent="1"><mxGeometry x="580" y="55" width="140" height="90" as="geometry"/></mxCell>
+        <mxCell id="p5" value="Reject / Awareness /&#10;W&amp;L action / Dev" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=11;" vertex="1" parent="1"><mxGeometry x="750" y="70" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="p6" value="Done — business&#10;confirmed (1wk hold)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=11;" vertex="1" parent="1"><mxGeometry x="960" y="70" width="170" height="60" as="geometry"/></mxCell>
+        <mxCell id="p7" value="Feedback to&#10;Project" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1160" y="70" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="pe1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="p1" target="p2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="p2" target="p3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="p3" target="p4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="p4" target="p5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="p5" target="p6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe6" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="p6" target="p7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ptag" value="1. PROJECT — see page 2" style="text;html=1;fontSize=10;fontStyle=1;fontColor=#2E8B87;" vertex="1" parent="1"><mxGeometry x="40" y="135" width="250" height="20" as="geometry"/></mxCell>
+
+        <!-- Demand lane -->
+        <mxCell id="d1" value="Demand request&#10;logged" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=11;" vertex="1" parent="1"><mxGeometry x="40" y="200" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="d2" value="BA assesses &amp;&#10;routes (normal process)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=11;" vertex="1" parent="1"><mxGeometry x="220" y="200" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="d3" value="Ticket → Enterprise&#10;(DC Deployment)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7A4FB5;strokeColor=#5B3A8A;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="400" y="200" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="d4" value="BA Assessment&#10;impact" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=10;" vertex="1" parent="1"><mxGeometry x="580" y="185" width="140" height="90" as="geometry"/></mxCell>
+        <mxCell id="d5" value="Reject / External team /&#10;W&amp;L action / Dev" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=11;" vertex="1" parent="1"><mxGeometry x="750" y="200" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="d6" value="Dev → UAT →&#10;UAT signoff" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=11;" vertex="1" parent="1"><mxGeometry x="960" y="200" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="d7" value="CAB&#10;approval" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=10;" vertex="1" parent="1"><mxGeometry x="1140" y="185" width="130" height="90" as="geometry"/></mxCell>
+        <mxCell id="d8" value="Ready for&#10;implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1300" y="200" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="de1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="d1" target="d2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="d2" target="d3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="d3" target="d4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d4" target="d5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="d5" target="d6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de6" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="d6" target="d7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de7" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d7" target="d8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dtag" value="2. DEMAND MANAGEMENT — see page 3" style="text;html=1;fontSize=10;fontStyle=1;fontColor=#7A4FB5;" vertex="1" parent="1"><mxGeometry x="40" y="265" width="280" height="20" as="geometry"/></mxCell>
+
+        <!-- Incident lane -->
+        <mxCell id="i1" value="SPAR CRM ticket&#10;1st Level Support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=11;" vertex="1" parent="1"><mxGeometry x="40" y="330" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="i2" value="Support&#10;needed?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=10;" vertex="1" parent="1"><mxGeometry x="220" y="315" width="140" height="90" as="geometry"/></mxCell>
+        <mxCell id="i3" value="Closed on CRM&#10;(reason logged)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=11;" vertex="1" parent="1"><mxGeometry x="400" y="240" width="160" height="55" as="geometry"/></mxCell>
+        <mxCell id="i4" value="Jira ticket raised —&#10;2nd Level (Anton &amp; Solly)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C1573C;strokeColor=#984530;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="400" y="335" width="180" height="55" as="geometry"/></mxCell>
+        <mxCell id="i5" value="Urgency set,&#10;response metrics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=11;" vertex="1" parent="1"><mxGeometry x="620" y="335" width="160" height="55" as="geometry"/></mxCell>
+        <mxCell id="i6" value="Resolved /&#10;dev work package" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=11;" vertex="1" parent="1"><mxGeometry x="820" y="335" width="160" height="55" as="geometry"/></mxCell>
+        <mxCell id="ie1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="i1" target="i2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ie2" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;fontSize=10;" edge="1" parent="1" source="i2" target="i3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ie3" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;fontSize=10;" edge="1" parent="1" source="i2" target="i4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ie4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="i4" target="i5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ie5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="i5" target="i6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="itag" value="3. INCIDENT / HELPDESK — see page 4" style="text;html=1;fontSize=10;fontStyle=1;fontColor=#C1573C;" vertex="1" parent="1"><mxGeometry x="40" y="400" width="280" height="20" as="geometry"/></mxCell>
+
+        <mxCell id="leg" value="◇ = decision / fork point with multiple options (detailed on the focused pages)" style="text;html=1;fontSize=11;fontStyle=2;align=center;fontColor=#777777;" vertex="1" parent="1"><mxGeometry x="500" y="440" width="900" height="24" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ============ PAGE 2: AS-IS PROJECT DETAIL ============ -->
+  <diagram id="proj-asis" name="2. As-Is - Project (Detail)">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2700" pageHeight="560" math="0" shadow="0">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Project (RockIT) — As-Is, Detailed Flow" style="text;html=1;fontSize=20;fontStyle=1;align=center;fontColor=#1A2B3C;" vertex="1" parent="1"><mxGeometry x="700" y="10" width="900" height="30" as="geometry"/></mxCell>
+
+        <mxCell id="n1" value="Project RockIT&#10;Item logged" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="40" y="90" width="170" height="70" as="geometry"/></mxCell>
+        <mxCell id="n2" value="Demand: business sets&#10;priority &amp; urgency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="250" y="90" width="190" height="70" as="geometry"/></mxCell>
+        <mxCell id="n3" value="Ticket raised → assigned&#10;to Enterprise (DC Deployment)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E8B87;strokeColor=#1F6B67;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="480" y="90" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="d1" value="BA Assessment&#10;(Yusuf's team)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="750" y="65" width="160" height="120" as="geometry"/></mxCell>
+
+        <mxCell id="b1" value="OPTION — Reject&#10;Not in Enterprise's area → Closed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="960" y="10" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="b2" value="OPTION — No impact&#10;Kept on board for awareness only" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="960" y="75" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="b3" value="OPTION — W&amp;L team action&#10;Admin/config update → Done directly" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="960" y="140" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="b4" value="OPTION — Dev required&#10;Sent to Dev team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="960" y="205" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="eb1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b4"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="n5" value="Dev team&#10;builds" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1230" y="210" width="150" height="55" as="geometry"/></mxCell>
+        <mxCell id="n6" value="Assigned&#10;for UAT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1420" y="210" width="150" height="55" as="geometry"/></mxCell>
+        <mxCell id="n7" value="UAT&#10;signoff" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1610" y="210" width="140" height="55" as="geometry"/></mxCell>
+        <mxCell id="eb5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="b4" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e56" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="n5" target="n6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e67" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="n6" target="n7"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="d2" value="Business&#10;Review" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1800" y="185" width="150" height="110" as="geometry"/></mxCell>
+        <mxCell id="e7d2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="n7" target="d2"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="c1" value="OPTION — Complete&#10;Business satisfied → Done" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E8B87;strokeColor=#1F6B67;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2000" y="130" width="210" height="55" as="geometry"/></mxCell>
+        <mxCell id="c2" value="OPTION — Reallocate&#10;Not satisfied → back to Dev team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;dashed=1;" vertex="1" parent="1"><mxGeometry x="2000" y="195" width="210" height="55" as="geometry"/></mxCell>
+        <mxCell id="c3" value="OPTION — Reject&#10;Close ticket, no further action" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="2000" y="260" width="210" height="55" as="geometry"/></mxCell>
+        <mxCell id="ec1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d2" target="c1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d2" target="c2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d2" target="c3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ecloop" value="loops back" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeColor=#999999;fontSize=9;exitX=0;exitY=0.5;entryX=0.5;entryY=1;" edge="1" parent="1" source="c2" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="n8" value="Done — held 1 week&#10;→ then Closed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="2240" y="130" width="190" height="55" as="geometry"/></mxCell>
+        <mxCell id="n9" value="Feedback sent to Project&#10;for implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="2460" y="130" width="210" height="55" as="geometry"/></mxCell>
+        <mxCell id="e89" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="c1" target="n8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e910" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="n8" target="n9"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="note1" value="Jira board has only 3 statuses: To Do → In Progress → Done" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="40" y="330" width="380" height="60" as="geometry"/></mxCell>
+        <mxCell id="note2" value="Incidents handled via Project RockIT (not the Enterprise Helpdesk): critical incidents resolved in 2–4 hrs · change requests applied within 24 hrs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="450" y="330" width="480" height="60" as="geometry"/></mxCell>
+        <mxCell id="note3" value="Every fork on this page can also Reject, Complete or Reallocate a ticket — not just proceed to the next step" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="960" y="330" width="420" height="60" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ============ PAGE 3: AS-IS DEMAND MANAGEMENT DETAIL ============ -->
+  <diagram id="demand-asis" name="3. As-Is - Demand Mgmt (Detail)">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2700" pageHeight="560" math="0" shadow="0">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Demand Management (Yusuf) — As-Is, Detailed Flow" style="text;html=1;fontSize=20;fontStyle=1;align=center;fontColor=#1A2B3C;" vertex="1" parent="1"><mxGeometry x="700" y="10" width="900" height="30" as="geometry"/></mxCell>
+        <mxCell id="ts" value="Jira board columns shown in italics — Requested → In Review → Approved/Rejected-Deferred → Allocation → Feasibility → Final Review → Greenlight → Completed" style="text;html=1;fontSize=11;fontStyle=2;align=center;fontColor=#777777;" vertex="1" parent="1"><mxGeometry x="500" y="42" width="1600" height="22" as="geometry"/></mxCell>
+
+        <mxCell id="n1" value="Demand request&#10;logged&#10;«Requested»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=12;" vertex="1" parent="1"><mxGeometry x="40" y="90" width="170" height="75" as="geometry"/></mxCell>
+        <mxCell id="n2" value="BA assesses &amp; routes&#10;(normal process)&#10;«In Review»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=12;" vertex="1" parent="1"><mxGeometry x="240" y="90" width="190" height="75" as="geometry"/></mxCell>
+        <mxCell id="n3" value="Ticket raised → assigned&#10;to Enterprise (DC Deployment)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7A4FB5;strokeColor=#5B3A8A;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="460" y="90" width="220" height="75" as="geometry"/></mxCell>
+        <mxCell id="d1" value="BA Assessment&#10;— impact&#10;«Approved / Rejected-Deferred»" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="730" y="60" width="170" height="130" as="geometry"/></mxCell>
+
+        <mxCell id="b1" value="OPTION — Reject&#10;No impact → Rejected / Deferred" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="950" y="15" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="b2" value="OPTION — External team&#10;Allocated for development" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="950" y="80" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="b3" value="OPTION — W&amp;L team action&#10;Admin/config update → Done directly" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="950" y="145" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="b4" value="OPTION — Dev required&#10;Sent to Dev team «Allocation»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="950" y="210" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="eb1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b4"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="n5" value="Dev done → UAT →&#10;UAT signoff&#10;«Feasibility → Final Review»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1220" y="212" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="eb5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="b4" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="n6" value="Greenlight&#10;«Greenlight»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1490" y="215" width="160" height="65" as="geometry"/></mxCell>
+        <mxCell id="e56" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="n5" target="n6"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="n7" value="Completed&#10;«Completed»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7A4FB5;strokeColor=#5B3A8A;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1700" y="215" width="160" height="65" as="geometry"/></mxCell>
+        <mxCell id="e67" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="n6" target="n7"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="d2" value="CAB&#10;(Central Approval Board)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1910" y="190" width="170" height="115" as="geometry"/></mxCell>
+        <mxCell id="e7d2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="n7" target="d2"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="c1" value="OPTION — Approved&#10;Ready for implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7A4FB5;strokeColor=#5B3A8A;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2130" y="165" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="c2" value="OPTION — Not approved&#10;Reallocate → back to Final Review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;dashed=1;" vertex="1" parent="1"><mxGeometry x="2130" y="230" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="ec1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d2" target="c1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d2" target="c2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ecloop" value="loops back" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeColor=#999999;fontSize=9;exitX=0;exitY=0.5;entryX=0.5;entryY=1;" edge="1" parent="1" source="c2" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="note1" value="Notifications: business is informed of Dev/UAT progress via MS Teams or email (no Jira automation configured)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="40" y="330" width="480" height="60" as="geometry"/></mxCell>
+        <mxCell id="note2" value="Every fork on this page can also Reject, Complete or Reallocate a ticket — not just proceed to the next step" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="550" y="330" width="420" height="60" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ============ PAGE 4: AS-IS INCIDENT / LOGISTICS DETAIL ============ -->
+  <diagram id="incident-asis" name="4. As-Is - Incident (Detail)">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="500" math="0" shadow="0">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Logistics Portfolio — Incident Management (Anton &amp; Solly) — As-Is, Detailed Flow" style="text;html=1;fontSize=20;fontStyle=1;align=center;fontColor=#1A2B3C;" vertex="1" parent="1"><mxGeometry x="450" y="10" width="1200" height="30" as="geometry"/></mxCell>
+
+        <mxCell id="n1" value="Ticket raised on SPAR CRM&#10;by 1st Level Support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=12;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="d1" value="2nd Level support&#10;required?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="310" y="80" width="170" height="110" as="geometry"/></mxCell>
+        <mxCell id="ea" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="n1" target="d1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="b1" value="OPTION — No&#10;Closed on SPAR CRM with reason&#10;e.g. request to change warehouse layout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="530" y="30" width="270" height="70" as="geometry"/></mxCell>
+        <mxCell id="b2" value="OPTION — Yes&#10;Jira ticket raised for 2nd Level" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C1573C;strokeColor=#984530;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="530" y="150" width="270" height="70" as="geometry"/></mxCell>
+        <mxCell id="eb1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b2"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="n2" value="Priority assigned (P1–P5)&#10;set by Andrew Murch's team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=12;" vertex="1" parent="1"><mxGeometry x="850" y="160" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="b2" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="np1" value="P1 = Critical / business-stopping →&#10;must be actioned immediately.&#10;P5 = Lowest priority → takes time,&#10;could be bundled into a fix." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="850" y="245" width="260" height="90" as="geometry"/></mxCell>
+
+        <mxCell id="n3" value="2nd Level Triage&#10;dependencies / escalations / prioritisation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C1573C;strokeColor=#984530;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1130" y="160" width="270" height="70" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="n2" target="n3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="np2" value="Resolution time is case-by-case:&#10;type of issue, direct impact/cause,&#10;and effort required to fix — business&#10;also has a big say based on impact." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="1130" y="245" width="280" height="90" as="geometry"/></mxCell>
+
+        <mxCell id="c1" value="OPTION — Resolved&#10;Closed by 2nd Level Support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1450" y="100" width="230" height="60" as="geometry"/></mxCell>
+        <mxCell id="c2" value="OPTION — Dev required&#10;Work package → Dev team → Github" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1450" y="210" width="230" height="60" as="geometry"/></mxCell>
+        <mxCell id="ec1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="n3" target="c1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#1A2B3C;" edge="1" parent="1" source="n3" target="c2"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="n4" value="Closed on merge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1730" y="210" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#1A2B3C;" edge="1" parent="1" source="c2" target="n4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="np3" value="No fixed success metric on standard&#10;tickets today. Where dev changes are&#10;needed, success = confirmed successful&#10;implementation." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="1450" y="280" width="260" height="90" as="geometry"/></mxCell>
+
+        <mxCell id="note1" value="Confirmed with Anton Seocharan (2nd Level Support): priority drives urgency, resolution timeframes are judged case-by-case, and ticket success is measured only for dev-change tickets — via implementation outcome, not a fixed metric." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="40" y="400" width="1930" height="60" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ============ PAGE 5: TO-BE HIGH LEVEL ============ -->
+  <diagram id="hl-tobe" name="5. To-Be - High Level">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="620" math="0" shadow="0">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="SPAR Enterprise — TO-BE High Level (Project → Demand → Helpdesk)" style="text;html=1;fontSize=20;fontStyle=1;align=center;fontColor=#1A2B3C;" vertex="1" parent="1"><mxGeometry x="450" y="10" width="1000" height="30" as="geometry"/></mxCell>
+        <mxCell id="ts" value="Redesigned decision logic — priority-tiered (P1–P5) triage, set by Andrew Murch's team, re-platformed onto Sprints, Confluence + Rovo, Github and Jira Service Management" style="text;html=1;fontSize=11;fontStyle=2;align=center;fontColor=#777777;" vertex="1" parent="1"><mxGeometry x="350" y="38" width="1200" height="22" as="geometry"/></mxCell>
+
+        <!-- Project lane -->
+        <mxCell id="p1" value="Project RockIT&#10;Item logged" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=11;" vertex="1" parent="1"><mxGeometry x="40" y="80" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="p2" value="Demand sets&#10;priority &amp; urgency" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=11;" vertex="1" parent="1"><mxGeometry x="220" y="80" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="p3" value="Sprint backlog —&#10;Enterprise (DC Deployment)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E8B87;strokeColor=#1F6B67;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="400" y="80" width="160" height="60" as="geometry"/></mxCell>
+        <mxCell id="p4" value="BA Assessment +&#10;Priority Triage (P1–P5)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=10;" vertex="1" parent="1"><mxGeometry x="590" y="65" width="140" height="90" as="geometry"/></mxCell>
+        <mxCell id="p5" value="Priority-routed: Fast-track (P1/P2) /&#10;Standard (P3) / Backlog (P4/P5) / Reject / W&amp;L" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=10;" vertex="1" parent="1"><mxGeometry x="760" y="80" width="190" height="60" as="geometry"/></mxCell>
+        <mxCell id="p6" value="Sprint Review —&#10;business confirms Done" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=11;" vertex="1" parent="1"><mxGeometry x="980" y="80" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="p7" value="Feedback to Project&#10;(logged in Confluence)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1190" y="80" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="pe1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="p1" target="p2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="p2" target="p3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="p3" target="p4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="p4" target="p5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="p5" target="p6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="pe6" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="p6" target="p7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ptag" value="1. PROJECT — see page 6" style="text;html=1;fontSize=10;fontStyle=1;fontColor=#2E8B87;" vertex="1" parent="1"><mxGeometry x="40" y="145" width="250" height="20" as="geometry"/></mxCell>
+
+        <!-- Demand lane -->
+        <mxCell id="d1" value="Demand request&#10;logged" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=11;" vertex="1" parent="1"><mxGeometry x="40" y="210" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="d2" value="BA assesses &amp;&#10;routes (normal process)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=11;" vertex="1" parent="1"><mxGeometry x="220" y="210" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="d3" value="Sprint backlog —&#10;Enterprise (DC Deployment)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7A4FB5;strokeColor=#5B3A8A;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="400" y="210" width="160" height="60" as="geometry"/></mxCell>
+        <mxCell id="d4" value="BA Assessment +&#10;Priority Triage (P1–P5)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=10;" vertex="1" parent="1"><mxGeometry x="590" y="195" width="140" height="90" as="geometry"/></mxCell>
+        <mxCell id="d5" value="Priority-routed: Fast-track (P1/P2) /&#10;Standard (P3) / Backlog (P4/P5) / Reject / W&amp;L" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=10;" vertex="1" parent="1"><mxGeometry x="760" y="210" width="190" height="60" as="geometry"/></mxCell>
+        <mxCell id="d6" value="Dev → UAT →&#10;UAT signoff (sprint review)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=11;" vertex="1" parent="1"><mxGeometry x="980" y="210" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="d7" value="CAB approval&#10;(logged in Confluence)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=10;" vertex="1" parent="1"><mxGeometry x="1190" y="195" width="140" height="90" as="geometry"/></mxCell>
+        <mxCell id="d8" value="Ready for&#10;implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1360" y="210" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="de1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="d1" target="d2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="d2" target="d3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="d3" target="d4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d4" target="d5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="d5" target="d6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de6" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="d6" target="d7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="de7" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d7" target="d8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dtag" value="2. DEMAND MANAGEMENT — see page 7" style="text;html=1;fontSize=10;fontStyle=1;fontColor=#7A4FB5;" vertex="1" parent="1"><mxGeometry x="40" y="275" width="280" height="20" as="geometry"/></mxCell>
+
+        <!-- Incident lane -->
+        <mxCell id="i1" value="SPAR CRM ticket&#10;1st Level Support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=11;" vertex="1" parent="1"><mxGeometry x="40" y="340" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="i2" value="Support&#10;needed?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=10;" vertex="1" parent="1"><mxGeometry x="220" y="325" width="140" height="90" as="geometry"/></mxCell>
+        <mxCell id="i3" value="Closed on CRM&#10;(reason logged)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=11;" vertex="1" parent="1"><mxGeometry x="400" y="250" width="170" height="55" as="geometry"/></mxCell>
+        <mxCell id="i4" value="Jira Service Mgmt ticket —&#10;2nd Level (Anton &amp; Solly)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C1573C;strokeColor=#984530;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="400" y="345" width="190" height="55" as="geometry"/></mxCell>
+        <mxCell id="i5" value="Priority (P1–P5) auto-sets&#10;SLA timers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=11;" vertex="1" parent="1"><mxGeometry x="630" y="345" width="170" height="55" as="geometry"/></mxCell>
+        <mxCell id="i6" value="Resolved (no fixed metric) /&#10;Dev → success = implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=10;" vertex="1" parent="1"><mxGeometry x="840" y="345" width="190" height="55" as="geometry"/></mxCell>
+        <mxCell id="ie1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="i1" target="i2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ie2" value="No" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;fontSize=10;" edge="1" parent="1" source="i2" target="i3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ie3" value="Yes" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;fontSize=10;" edge="1" parent="1" source="i2" target="i4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ie4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="i4" target="i5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ie5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="i5" target="i6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="itag" value="3. INCIDENT / HELPDESK — see page 8" style="text;html=1;fontSize=10;fontStyle=1;fontColor=#C1573C;" vertex="1" parent="1"><mxGeometry x="40" y="410" width="280" height="20" as="geometry"/></mxCell>
+
+        <mxCell id="found" value="Foundation: Confluence + Rovo agents (docs &amp; decisions) · Github (formal branch/PR) · Jira AI agents · Scrums.com governance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;align=center;" vertex="1" parent="1"><mxGeometry x="1360" y="345" width="500" height="55" as="geometry"/></mxCell>
+        <mxCell id="leg" value="◇ = decision / fork point — priority-tiered (P1–P5) triage now drives real routing differences in To-Be, not just tooling changes" style="text;html=1;fontSize=11;fontStyle=2;align=center;fontColor=#777777;" vertex="1" parent="1"><mxGeometry x="350" y="460" width="1200" height="24" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ============ PAGE 6: TO-BE PROJECT DETAIL ============ -->
+  <diagram id="proj-tobe" name="6. To-Be - Project (Detail)">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2880" pageHeight="460" math="0" shadow="0">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Project (RockIT) — To-Be, Detailed Flow" style="text;html=1;fontSize=20;fontStyle=1;align=center;fontColor=#1A2B3C;" vertex="1" parent="1"><mxGeometry x="700" y="10" width="900" height="30" as="geometry"/></mxCell>
+        <mxCell id="ts" value="Redesigned decision logic — priority-tiered (P1–P5) triage (set by Andrew Murch’s team) replaces the flat 4-way fork; Confluence/Rovo and Github formalise handoffs" style="text;html=1;fontSize=11;fontStyle=2;align=center;fontColor=#777777;" vertex="1" parent="1"><mxGeometry x="350" y="40" width="2100" height="22" as="geometry"/></mxCell>
+        <mxCell id="n1" value="Project RockIT&#10;Item logged" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="40" y="90" width="170" height="70" as="geometry"/></mxCell>
+        <mxCell id="n2" value="Demand: business sets&#10;Priority (P1–P5)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="250" y="90" width="190" height="70" as="geometry"/></mxCell>
+        <mxCell id="n3" value="Sprint backlog —&#10;Enterprise (DC Deployment)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E8B87;strokeColor=#1F6B67;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="480" y="90" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="d1" value="BA Assessment +&#10;Priority Triage&#10;(Rovo-assisted)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="750" y="45" width="190" height="170" as="geometry"/></mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="n1" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e23" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="n2" target="n3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3d1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="n3" target="d1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="b1" value="OPTION — Reject&#10;Not in Enterprise’s area → Rovo suggests owning team, closed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="990" y="10" width="250" height="55" as="geometry"/></mxCell>
+        <mxCell id="b2" value="OPTION — P1/P2 Critical or High&#10;Fast-tracked into current sprint, Dev notified same day" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C1573C;strokeColor=#984530;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="990" y="75" width="250" height="55" as="geometry"/></mxCell>
+        <mxCell id="b3" value="OPTION — P3 Medium&#10;Standard sprint backlog, next planning cycle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="990" y="140" width="250" height="55" as="geometry"/></mxCell>
+        <mxCell id="b4" value="OPTION — P4/P5 Low&#10;Batched into quarterly enhancement backlog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="990" y="205" width="250" height="55" as="geometry"/></mxCell>
+        <mxCell id="b5" value="OPTION — W&amp;L quick fix&#10;Admin/config change, closed directly within SLA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="990" y="270" width="250" height="55" as="geometry"/></mxCell>
+        <mxCell id="e_b1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_b2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_b3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_b4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_b5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n4" value="Confluence&#10;Requirements &amp; design docs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E5AAC;strokeColor=#1E3F7A;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1300" y="15" width="190" height="55" as="geometry"/></mxCell>
+        <mxCell id="e_b2n4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeColor=#C1573C;" edge="1" parent="1" source="b2" target="n4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_b3n4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeColor=#2E8B87;" edge="1" parent="1" source="b3" target="n4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n5" value="Dev team builds —&#10;feature branch per story" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1300" y="190" width="190" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_b2n5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="b2" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_b3n5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="b3" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n8b" value="Backlog item&#10;Reviewed quarterly — escalated if impact grows" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;dashed=1;" vertex="1" parent="1"><mxGeometry x="1300" y="270" width="250" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_b4n8b" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#1A2B3C;" edge="1" parent="1" source="b4" target="n8b"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n5b" value="Github&#10;PR linked to Jira ticket" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1520" y="190" width="170" height="60" as="geometry"/></mxCell>
+        <mxCell id="n6" value="Assigned&#10;for UAT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1720" y="190" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="n7" value="UAT signoff&#10;(Sprint Review)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1900" y="190" width="160" height="60" as="geometry"/></mxCell>
+        <mxCell id="e5b" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="n5" target="n5b"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e56" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="n5b" target="n6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e67" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="n6" target="n7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="d2" value="Business&#10;Review" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2090" y="165" width="150" height="110" as="geometry"/></mxCell>
+        <mxCell id="e7d2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="n7" target="d2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c1" value="OPTION — Complete&#10;Business satisfied → Done" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2E8B87;strokeColor=#1F6B67;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2290" y="110" width="210" height="55" as="geometry"/></mxCell>
+        <mxCell id="c2" value="OPTION — Reallocate&#10;Not satisfied → back into Sprint" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;dashed=1;" vertex="1" parent="1"><mxGeometry x="2290" y="175" width="210" height="55" as="geometry"/></mxCell>
+        <mxCell id="c3" value="OPTION — Reject&#10;Close ticket, no further action" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="2290" y="240" width="210" height="55" as="geometry"/></mxCell>
+        <mxCell id="ec1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d2" target="c1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d2" target="c2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d2" target="c3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ecloop" value="loops back" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeColor=#999999;fontSize=10;" edge="1" parent="1" source="c2" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n9" value="Sprint Retro logged in Confluence →&#10;feedback to Project for implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF7F6;strokeColor=#2E8B87;fontSize=12;" vertex="1" parent="1"><mxGeometry x="2550" y="110" width="250" height="55" as="geometry"/></mxCell>
+        <mxCell id="e_c1n9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#2E8B87;" edge="1" parent="1" source="c1" target="n9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="note1" value="Jira workflow becomes a Sprint board (Backlog → In Sprint → In Review → Done) instead of a flat 3-status Kanban" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="40" y="360" width="440" height="60" as="geometry"/></mxCell>
+        <mxCell id="note2" value="Priority (P1–P5), set by Andrew Murch’s team, now drives routing directly — P1/P2 skip the sprint-planning queue entirely" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="510" y="360" width="480" height="60" as="geometry"/></mxCell>
+        <mxCell id="note3" value="Every fork still allows Reject / Complete / Reallocate downstream — only the intake triage logic has changed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="1020" y="360" width="420" height="60" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ============ PAGE 7: TO-BE DEMAND MANAGEMENT DETAIL ============ -->
+  <diagram id="demand-tobe" name="7. To-Be - Demand Mgmt (Detail)">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="480" math="0" shadow="0">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Demand Management (Yusuf) — To-Be, Detailed Flow" style="text;html=1;fontSize=20;fontStyle=1;align=center;fontColor=#1A2B3C;" vertex="1" parent="1"><mxGeometry x="700" y="10" width="900" height="30" as="geometry"/></mxCell>
+        <mxCell id="ts" value="Redesigned decision logic — priority-tiered (P1–P5) triage (set by Andrew Murch’s team) replaces the flat 4-way fork; sprint-based execution with automated notifications" style="text;html=1;fontSize=11;fontStyle=2;align=center;fontColor=#777777;" vertex="1" parent="1"><mxGeometry x="350" y="40" width="2100" height="22" as="geometry"/></mxCell>
+        <mxCell id="n1" value="Demand request&#10;logged&#10;«Requested»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=12;" vertex="1" parent="1"><mxGeometry x="40" y="90" width="170" height="75" as="geometry"/></mxCell>
+        <mxCell id="n2" value="BA assesses &amp; sets&#10;Priority (P1–P5)&#10;«In Review»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=12;" vertex="1" parent="1"><mxGeometry x="240" y="90" width="190" height="75" as="geometry"/></mxCell>
+        <mxCell id="n3" value="Sprint backlog —&#10;Enterprise (DC Deployment)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7A4FB5;strokeColor=#5B3A8A;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="460" y="90" width="220" height="75" as="geometry"/></mxCell>
+        <mxCell id="d1" value="BA Assessment +&#10;Priority Triage&#10;(Rovo-assisted)&#10;«Approved / Rejected-Deferred»" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="730" y="40" width="200" height="170" as="geometry"/></mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="n1" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e23" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="n2" target="n3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3d1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="n3" target="d1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="b1" value="OPTION — Reject&#10;No impact → Rejected / Deferred" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="980" y="10" width="250" height="55" as="geometry"/></mxCell>
+        <mxCell id="b2" value="OPTION — P1/P2 Critical or High&#10;Fast-tracked into current sprint «Allocation»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C1573C;strokeColor=#984530;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="980" y="75" width="250" height="55" as="geometry"/></mxCell>
+        <mxCell id="b3" value="OPTION — P3 Medium&#10;Standard sprint backlog, next planning «Allocation»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="980" y="140" width="250" height="55" as="geometry"/></mxCell>
+        <mxCell id="b4" value="OPTION — P4/P5 Low&#10;Batched into quarterly enhancement backlog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="980" y="205" width="250" height="55" as="geometry"/></mxCell>
+        <mxCell id="b5" value="OPTION — W&amp;L team action&#10;Admin/config update → Done directly" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="980" y="270" width="250" height="55" as="geometry"/></mxCell>
+        <mxCell id="e_b1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_b2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_b3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_b4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_b5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n5" value="Dev done → UAT →&#10;UAT signoff&#10;«Feasibility → Final Review»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1280" y="205" width="230" height="70" as="geometry"/></mxCell>
+        <mxCell id="e_b2n5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="b2" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_b3n5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="b3" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n8b" value="Backlog item&#10;Reviewed quarterly — escalated if impact grows" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;dashed=1;" vertex="1" parent="1"><mxGeometry x="1280" y="290" width="250" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_b4n8b" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#1A2B3C;" edge="1" parent="1" source="b4" target="n8b"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n6" value="Greenlight&#10;«Greenlight»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EAFA;strokeColor=#7A4FB5;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1560" y="210" width="160" height="65" as="geometry"/></mxCell>
+        <mxCell id="e56" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="n5" target="n6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n7" value="Completed&#10;«Completed»" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7A4FB5;strokeColor=#5B3A8A;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1770" y="210" width="160" height="65" as="geometry"/></mxCell>
+        <mxCell id="e67" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="n6" target="n7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="d2" value="CAB&#10;(logged in Confluence)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1980" y="185" width="170" height="115" as="geometry"/></mxCell>
+        <mxCell id="e7d2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#7A4FB5;" edge="1" parent="1" source="n7" target="d2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c1" value="OPTION — Approved&#10;Ready for implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7A4FB5;strokeColor=#5B3A8A;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2200" y="160" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="c2" value="OPTION — Not approved&#10;Reallocate → back to Final Review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;dashed=1;" vertex="1" parent="1"><mxGeometry x="2200" y="225" width="220" height="55" as="geometry"/></mxCell>
+        <mxCell id="ec1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d2" target="c1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d2" target="c2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ecloop" value="loops back" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeColor=#999999;fontSize=10;" edge="1" parent="1" source="c2" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="note1" value="Notifications automated via Jira automation rules into Teams — no manual chase needed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="40" y="380" width="440" height="60" as="geometry"/></mxCell>
+        <mxCell id="note2" value="Priority (P1–P5), set by Andrew Murch’s team, now drives routing directly — P1/P2 skip the sprint-planning queue entirely" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="510" y="380" width="480" height="60" as="geometry"/></mxCell>
+        <mxCell id="note3" value="Every fork still allows Reject, Approve or Reallocate downstream — only the intake triage logic has changed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="1020" y="380" width="420" height="60" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ============ PAGE 8: TO-BE INCIDENT / LOGISTICS DETAIL ============ -->
+  <diagram id="incident-tobe" name="8. To-Be - Incident (Detail)">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="540" math="0" shadow="0">
+      <root><mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Logistics Portfolio — Incident Management (Anton &amp; Solly) — To-Be, Detailed Flow" style="text;html=1;fontSize=20;fontStyle=1;align=center;fontColor=#1A2B3C;" vertex="1" parent="1"><mxGeometry x="450" y="10" width="1200" height="30" as="geometry"/></mxCell>
+        <mxCell id="ts" value="Priority (P1–P5, set by Andrew Murch’s team) drives SLA automation in Jira Service Management; success is now measured only for dev-change tickets" style="text;html=1;fontSize=11;fontStyle=2;align=center;fontColor=#777777;" vertex="1" parent="1"><mxGeometry x="300" y="42" width="1600" height="22" as="geometry"/></mxCell>
+        <mxCell id="n1" value="Ticket raised on SPAR CRM&#10;by 1st Level Support" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=12;" vertex="1" parent="1"><mxGeometry x="40" y="110" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="d1" value="2nd Level support&#10;required?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="310" y="90" width="170" height="110" as="geometry"/></mxCell>
+        <mxCell id="ea" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="n1" target="d1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="b1" value="OPTION — No&#10;Closed on SPAR CRM with reason&#10;e.g. request to change warehouse layout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="530" y="40" width="270" height="70" as="geometry"/></mxCell>
+        <mxCell id="b2" value="OPTION — Yes&#10;Jira Service Mgmt ticket raised,&#10;Priority (P1–P5) set at intake" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C1573C;strokeColor=#984530;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="530" y="160" width="270" height="70" as="geometry"/></mxCell>
+        <mxCell id="eb1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="eb2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C99A2E;" edge="1" parent="1" source="d1" target="b2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n2" value="SLA timer auto-set by Priority&#10;P1 = immediate action target · P5 = queued / batched" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=12;" vertex="1" parent="1"><mxGeometry x="850" y="160" width="250" height="80" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="b2" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="np1" value="Priority set by Andrew Murch’s team:&#10;P1 = Critical / business-stopping → act immediately.&#10;P5 = Lowest → resolved over time, may bundle into a fix." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="850" y="255" width="280" height="90" as="geometry"/></mxCell>
+        <mxCell id="n3" value="2nd Level Triage&#10;dependencies / escalations — resolution time set&#10;case-by-case by impact, effort &amp; business input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C1573C;strokeColor=#984530;fontColor=#FFFFFF;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1150" y="160" width="280" height="80" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="n2" target="n3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="c1" value="OPTION — Resolved (standard)&#10;Closed in JSM — no fixed metric tracked" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBEDE9;strokeColor=#C1573C;fontSize=12;" vertex="1" parent="1"><mxGeometry x="1470" y="100" width="250" height="60" as="geometry"/></mxCell>
+        <mxCell id="c2" value="OPTION — Dev required&#10;Work package → Github" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1470" y="220" width="250" height="60" as="geometry"/></mxCell>
+        <mxCell id="ec1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#C1573C;" edge="1" parent="1" source="n3" target="c1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="ec2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#1A2B3C;" edge="1" parent="1" source="n3" target="c2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n4" value="Closed on merge&#10;Success metric = confirmed successful implementation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A2B3C;strokeColor=#0B1622;fontColor=#FFFFFF;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1760" y="220" width="280" height="60" as="geometry"/></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeColor=#1A2B3C;" edge="1" parent="1" source="c2" target="n4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="np2" value="Success metric only applies to dev-change tickets:&#10;confirmed successful implementation.&#10;Standard tickets have no fixed measurement today." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3D6;strokeColor=#C99A2E;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="1470" y="295" width="290" height="90" as="geometry"/></mxCell>
+        <mxCell id="note1" value="To-Be formalises Anton’s current practice: priority (P1–P5) drives SLA timers automatically; resolution time is still judged case-by-case; success is measured only for dev-change tickets (successful implementation), not standard tickets." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;fontSize=11;fontStyle=2;align=left;spacingLeft=10;" vertex="1" parent="1"><mxGeometry x="40" y="410" width="2000" height="60" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+</mxfile>
